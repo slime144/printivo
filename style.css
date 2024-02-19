@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+@font-face {
+    font-family: emma;
+    src: url();
+}
+
+body{
+    background-color:rgb(255,255,255);
+}
+
+.uppernav{
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    border: none;
+}
+
+.leftdiv a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(66, 79, 91);
+    font-size: 14px;
+}
+
+.leftdiv{
+    margin-right: 90px;
+}
+
+.middlediv{
+    margin-right: 90px;
+}
+
+.middlediv{
+    display: flex;
+}
+
+.whatsap{
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.rightdiv{
+    margin-right: 150px;
+    margin-bottom: 90px;
+    padding-top: -1px;
+    padding-left: 10px;
+    border: 1px solid rgb(75, 91, 106);
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+}
+
+.signin{
+    color: rgb(216,131,133);
+    font-weight: bold;
+}
+
+.lowernav{
+    background-color: rgb(236,232,217);
+    width: 100%;
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    z-index: 1;
+}
+
+.rightdiv2 a{
+       text-decoration: none;
+       margin-right: 30px;
+}
+
+.unique{
+    background-color: rgb(236,232,217) ;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px 20px 150px;
+}
+
+.unique h1{
+    font-size: 65px;
+    color: rgb(66, 79, 91);
+    font-weight: normal;
+    font-family: 'DM Serif Display', serif;
+    padding-bottom: 20px;
+}
+
+.unique h2{
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form img{
+    background-color: #F9F8F4;
+    padding-right: 5px;
+}
+
+.form label{
+    padding-bottom: 10px;
+}
+
+.what{
+    padding-bottom: 20px;
+}
+
+.form input{
+    width: 600px;
+    padding: 10px 20px;
+    border: none;
+    height: 100px;
+    font-size: 18px;
+    opacity: 0.7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+
+marquee{
+    background-color: rgb(243,177,205);
+    height: 70px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    display: flex; 
+}
+
+.popular{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+    font-size: 35px;
+    line-height: 2.25rem;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 30px
+}
+
+.header1 a{
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.parentcon{
+                background-color: white;
+                width: 303px;
+                height: 400px;
+                border: 2px solid rgb(206, 205, 205);
+                margin-right: 40px;
+                cursor: pointer;
+                /* transform: translate(20px); */
+}
+
+.parentcon img:hover{
+        /* transform: scale(1.05);  */
+        /* zoom: 110%; */
+        width: 300px;
+        height: 200px;
+        animation: card 0.9s alternate-reverse;
+        margin: 0 auto;
+
+}
+@keyframes card {
+        from{
+            transform: scale(0.9);
+        }
+        to{
+            transform: scale(1.2);
+        }
+}
+.section1{  
+            display:flex;
+            flex-direction: row;
+            margin-left: 120px;
+            margin-top: 40px;
+            
+
+}
+.Two-sided{
+    padding: 0 30px;
+}
+
+.Two-sided h3{
+     padding: 10px;
+     padding-bottom: 20px;
+     font-weight: 600;
+     font-size: 15px;
+     font-family:sans-serif;
+}
+
+.Two-sided p{
+    margin-bottom: 20px;
+    font-weight: 100Px;
+    font-family: "dm serif display",serif;
+}
+.Two-sided button{
+    background-color:  rgba(215,127,129);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Two-sided a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 90px
+}
+
+.header2 a{
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.brands{
+    padding: 0px 110px;
+    margin-top: 100px;
+    color: #384a62;
+    font-family: "dm serif display",serif;
+}
+
+.brands h3{
+    padding-top: 10px;
+    font-family: SF Pro,sans-serif;
+    font-weight: 600;
+}
+
+.brands img{
+    padding-top: 20px;
+}
+
+.section2{
+      background-color: rgb(237,246,253);
+      width: 100%;
+      height: 320px;
+      margin-top: 100px;
+      padding: 0 120px;
+}
+
+.section2 h1{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.twitterbox{
+    background-color: white;
+    height: 170px;
+    width: 400px;
+    margin-top: 30px;
+    border: gray;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:100px;
+    color: rgb(51, 55, 60);
+    font-size: 14px;
+}
+
+.twitterbox img{
+     margin-left: 20px;
+     margin-top: 20px;
+     border: 1px solid gray;
+     border-radius: 30px;
+     height: 30px;
+}
+
+.twitterbox span h4{
+    padding-left: 80px;
+    margin-top: -30px;
+}
+
+.h42{
+    padding-top: 20px;
+    padding-left: 80px;
+    line-height: 1.4;
+    font-weight: 300px;
+}
+
+.twitterbox a{
+    color: rgb(58,161,242);
+    text-decoration: none;
+}
+
+.generaltwitterbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section3{
+    margin-top: 100px;
+    padding: 0 120px;
+}
+
+.section3 h1{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.count img{
+    padding-top: 10px;
+}
+
+.count h4{
+    padding-left: 100px;
+    margin-top: -90px;
+    font-size: 19px;
+}
+
+.count p{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: "dm serif display",serif;
+    font-weight: 500;
+}
+
+.count{
+    margin-top: 20px;
+    line-height: 1.2;
+    font-family: "dm serif display",serif;
+    color: #384a62;
+    font-weight: bold;
+}
+
+.generalcount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section4{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247,246,244);
+    margin-top: 100px;
+    padding: 0 120px;
+}
+
+.section4 h1{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.amazed p{
+    padding-top: 15px;
+    padding-left: px;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #384a62;
+    cursor: pointer;
+}
+
+.generalamazed{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer{
+    background-color: rgb(56,74,98);
+    width: 100%;
+    height: 350px;
+    color: white;
+    padding: 70px 120px;
+    text-decoration: none;
+}
+
+.line1 ol li{
+    color: white;
+    text-decoration: none;
+    padding-top: 12px;
+    list-style-type: none;
+}
+
+.line1 ol a{
+    color: white;
+    text-decoration: none;
+}
+
+.line1 h4{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: SF Pro,sans-serif;;
+    color: #ECE8D9;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h4second{
+    padding-top: 25px;
+}
+
+.h4third{
+    padding-top: 25px;
+}
+
+main{
+    height: 120px;
+    background-color: rgb(203,202,200);
+}
+
+main input{
+    background-color: rgb(247,39,158);
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 52px;
+    font-weight: bold;
+}
+
+main ::placeholder{
+    color: white;
+    font-size: 19px;
+    font-family: SF Pro,sans-serif;;
+}
+
+main div{
+     margin-left: 550px;
+}
+
+main div h4{
+    padding-top: 50px;
+    font-family: SF Pro,sans-serif;;
+    color: #384a62;
+    font-weight: 300;
+}
